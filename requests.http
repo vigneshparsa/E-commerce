@@ -1,0 +1,9 @@
+### create Product
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name":"Wireless Bluetooth Headphones",
+  "price": "1499.00",
+  "quantity": 15
+}
